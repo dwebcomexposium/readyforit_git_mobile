@@ -89,7 +89,8 @@ h2 {
 }
 
 .front h2 {
-  font-size: 5rem;
+  padding-bottom: 2rem;
+  font-size: 4.5rem;
   font-weight: 700;
 }
 
@@ -884,17 +885,7 @@ h1::before {
 
 
 .title-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 1220px;
-  margin: 0 auto;
-}
-
-.title-temps-forts,
-.title-actualites {
-  display: flex;
-  align-items: center;
+  margin: 4rem 2rem;
 }
 
 /* Edito */
@@ -915,7 +906,7 @@ h1::before {
 .title-actualites::before {
   content: '';
   display: inline-block;
-  margin-right: 2rem;
+  margin-right: 1.5rem;
 }
 
 .front #zone2 .edito h2::before {
@@ -956,7 +947,6 @@ h1::before {
   top: 25px;
   width: 320px;
   height: 425px;
-  background: pink;
 }
 
 .focus-container .focus {
@@ -1110,8 +1100,8 @@ h1::before {
 }
 
 .title-actualites::before {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   background: url('img/readyforit/icon_actualites.png') no-repeat;
 }
 
@@ -1141,14 +1131,9 @@ h1::before {
 /* Programme */
 .program-container {
   position: relative;
-  width: 86%;
-  max-width: 1220px;
-  min-height: 430px;
-  margin: 3rem auto 9rem;
-  padding: 3.7rem 5rem;
+  padding: 2rem;
   background: url('img/readyforit/bg_2.jpg') no-repeat 0 0 / cover;
   color: #ffffff;
-  text-align: center;
 }
 
 .program-container h2 {
@@ -1164,15 +1149,14 @@ h1::before {
 }
 
 .program-focus {
-  display: flex;
-  justify-content: space-between;
-  margin: 4rem auto;
+  margin: 5rem 0 7rem;
 }
 
 .program-focus a {
+  display: block;
   position: relative;
-  width: 28%;
-  padding: 2.5rem 3rem;
+  margin: 2rem 0;
+  padding: 2rem;
   background: #1e2339;
   color: #ffffff;
   font-size: 2.5rem;
@@ -1187,7 +1171,7 @@ h1::before {
   display: inline-block;
   position: absolute;
   top: calc(50% - 18px);
-  right: -18px;
+  right: -10px;
   width: 36px;
   height: 36px;
   background: #ffffff;
@@ -1229,8 +1213,8 @@ h1::before {
 }
 
 .title-temps-forts::before {
-  width: 61px;
-  height: 61px;
+  width: 41px;
+  height: 41px;
   background: url('img/readyforit/icon_temps_forts.png') no-repeat;
 }
 
