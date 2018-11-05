@@ -89,7 +89,7 @@ h2 {
 }
 
 .front h2 {
-  font-size: 6.8rem;
+  font-size: 5rem;
   font-weight: 700;
 }
 
@@ -357,7 +357,7 @@ a {
 
 .site-banner .inside {
   max-width: initial;
-  height: auto;
+  height: 70px;
   padding: 7px;
 }
 
@@ -431,22 +431,43 @@ a {
 }
 
 .sb-menu-trigger {
+  top: 10px;
   right: 0;
   left: initial;
   color: #ff3100;
 }
 
+.site-banner .icon::before {
+  content: "";
+  display: inline-block;
+  width: 27px;
+  height: 26px;
+  background: url('img/readyforit/burger.png') no-repeat;
+}
+
 /* Navigation */
-.mn-menu-line {
-  justify-content: center;
-  border: 0;
+.main-navigation {
+  top: 70px;
+}
+
+.mn-menu,
+.mn-item-lvl-1 {
+  background: #ffffff;
+}
+
+.mn-item-lvl-1 {
+  min-height: initial;
+  border-bottom: 0;
+  color: #1e2339;
 }
 
 .mn-link {
+  padding: 0.7rem 3rem 0.7rem 4rem;
   font-weight: 500;
 }
 
 .mn-item-lvl-1 > .mn-link {
+  padding: 0.75rem 3rem 0.75rem 1rem;
   color: #1e2339;
   font-size: 1.8rem;
   text-transform: inherit;
@@ -762,13 +783,6 @@ h1::before {
 /***********************************/
 /* HOME */
 /***********************************/
-.front .site-wrapper {
-  background: #ffffff url('img/readyforit/bg_mozaique.png') no-repeat left bottom;
-}
-
-.front #zone2 {
-  background: transparent url('img/readyforit/bg_logo.png') no-repeat right 25px;
-}
 
 /* Slider */
 .front #zone1 {
@@ -905,14 +919,14 @@ h1::before {
 }
 
 .front #zone2 .edito h2::before {
-  width: 15px;
-  height: 62px;
+  width: 10px;
+  height: 41px;
   background: url('img/readyforit/icon_edito.png') no-repeat;
 }
 
 .front #zone2 .edito h4 {
   margin: 0;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -930,11 +944,26 @@ h1::before {
 
 /* Focus/blockquote */
 .focus-container {
-  padding: 1rem;
+  position: relative;
+  height: 425px;
+  margin: 5rem 0 0;
+}
+
+.focus-container::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 25px;
+  width: 320px;
+  height: 425px;
+  background: pink;
 }
 
 .focus-container .focus {
-  position: relative;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  left: 1rem;
   padding: 1rem 2rem 4rem;
   background: #ff7600;
   color: #ffffff;
