@@ -342,10 +342,6 @@ a {
   color: #ffffff;
 }
 
-.cc-cookies .inside {
-  max-width: 1220px;
-}
-
 .cc-cookie-link,
 .cc-cookies a:hover,
 .cc-cookies a:focus {
@@ -1217,11 +1213,6 @@ h1::before {
   position: relative;
 }
 
-.front #zone2 .actu-container .inside {
-  max-width: 1220px;
-  margin: 0 auto;
-}
-
 /* Programme */
 .program-container {
   position: relative;
@@ -1333,7 +1324,6 @@ h1::before {
 
 .front #zone2 .highlight-container .slider {
   width: 82%;
-  max-width: 1220px;
   height: 547px;
   margin: 0 auto 5rem;
 }
@@ -1415,26 +1405,21 @@ h1::before {
 
 /* Partenaires */
 .front #zone4 {
-  width: 86%;
   margin: 3rem auto 0;
   padding-bottom: 3rem;
 }
 
 .front #zone4 .edito {
-  max-width: 1220px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 3.7rem 5rem;
+  padding: 5rem 2rem;
   background: url('img/readyforit/bg_3.jpg') no-repeat 0 0 / cover;
   color: #ffffff;
   font-size: 2.6rem;
   font-weight: 500;
-  text-align: center;
 }
 
 .front #zone4 .edito h2 {
   color: #ffffff;
-  font-size: 5.25rem;
+  font-size: 3.2rem;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -1463,7 +1448,6 @@ h1::before {
 
 .front #zone4 .partner {
   position: relative;
-  max-width: 1220px;
   margin: 0 auto 4rem;
   box-shadow: 0 5px 55px 0 rgba(0, 0, 0, 0.25);
 }
@@ -1491,14 +1475,18 @@ h1::before {
   position: absolute;
   z-index: 0;
   top: 0;
-  right: -33px;
-  left: -33px;
+  right: 0;
+  left: 0;
   border: 0;
 }
 
 .front #zone4 .slider-pagin-btn {
   display: flex;
   justify-content: space-between;
+}
+
+.front #zone4 .mobile-partner-gallery .btn {
+  background-color: #1e2339;
 }
 
 .front #zone4 .pg-pagin-nb {
