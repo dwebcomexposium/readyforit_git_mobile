@@ -872,6 +872,7 @@ h1::before {
 
 #zone1 .slider {
   position: relative;
+  height: 100%;
 }
 
 #zone1 .la-slider .la-item-title a:focus,
@@ -889,8 +890,9 @@ h1::before {
 
 #zone1 .la-slider .slider-pagin-btn {
   display: flex;
-  top: -167px;
+  top: inherit;
   right: 0;
+  bottom: 2rem;
   justify-content: space-between;
   width: 100%;
   padding: 0 2rem;
@@ -926,7 +928,7 @@ h1::before {
 #zone1 .la-slider .slider-item {
   position: relative;
   flex: 0 0 100%;
-  height: 420px;
+  height: 500px;
   margin: 0;
 }
 
@@ -944,20 +946,20 @@ h1::before {
   left: 0;
   flex-direction: column;
   justify-content: center;
-  width: 50%;
   height: 100%;
-  padding: 0 0 0 11rem;
+  padding: 2rem;
 }
 
 #zone1 .la-slider .la-item-title {
-  font-size: 5.6rem;
+  margin-bottom: 0;
+  font-size: 3.2rem;
   font-weight: 500;
   line-height: 1.2;
 }
 
 #zone1 .la-slider .la-item-content p {
   margin-top: 2.5rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 500;
 }
 
