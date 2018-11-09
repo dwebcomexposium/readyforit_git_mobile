@@ -320,18 +320,10 @@ a {
   font-size: 1.4rem;
 }
 
-.slider [class*="slider-btn"]:focus,
-.slider [class*="slider-btn"]:hover {
-  background: #ffffff;
-}
-
-.slider [class*="slider-btn"] .icon {
+.mobile-partner-gallery .slider-pagin-btn .btn .icon,
+.mobile-partner-gallery .slider-pagin-btn .btn:focus .icon,
+.mobile-partner-gallery .slider-pagin-btn .btn:hover .icon {
   color: #ffffff;
-}
-
-.slider [class*="slider-btn"]:focus .icon,
-.slider [class*="slider-btn"]:hover .icon {
-  color: #1e2339;
 }
 
 .cc-cookies {
@@ -1448,8 +1440,6 @@ h1::before {
 
 .front #zone4 .partner {
   position: relative;
-  margin: 0 auto 4rem;
-  box-shadow: 0 5px 55px 0 rgba(0, 0, 0, 0.25);
 }
 
 .front #zone4 .slider {
@@ -1473,7 +1463,7 @@ h1::before {
 
 .front #zone4 .slider-pagin {
   position: absolute;
-  z-index: 0;
+  z-index: 1;
   top: 0;
   right: 0;
   left: 0;
