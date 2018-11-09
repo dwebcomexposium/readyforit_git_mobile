@@ -90,7 +90,7 @@ h2 {
 
 .front h2 {
   padding-bottom: 2rem;
-  font-size: 4.5rem;
+  font-size: 4.4rem;
   font-weight: 700;
 }
 
@@ -829,14 +829,6 @@ h1::before {
 /***********************************/
 /* HOME */
 /***********************************/
-.front .site-wrapper {
-  background: #ffffff url('img/readyforit/bg_mozaique.png') no-repeat left bottom;
-}
-
-.front #zone2 {
-  background: transparent url('img/readyforit/bg_logo.png') no-repeat right 25px;
-}
-
 /* Slider */
 .front #zone1 {
   display: block;
@@ -1012,7 +1004,7 @@ h1::before {
 
 .front #zone2 .edito h4 {
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -1042,7 +1034,12 @@ h1::before {
   top: 25px;
   width: 320px;
   height: 425px;
+  background: transparent url('img/readyforit/bg_logo.png') no-repeat;
 }
+
+/*.front .site-wrapper {
+  background: #ffffff url('img/readyforit/bg_mozaique.png') no-repeat left bottom;
+}*/
 
 .focus-container .focus {
   position: absolute;
@@ -1052,7 +1049,7 @@ h1::before {
   padding: 1rem 2rem 4rem;
   background: #ff7600;
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 2.4rem;
   line-height: 1.2;
 }
 
