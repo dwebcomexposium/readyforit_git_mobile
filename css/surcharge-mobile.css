@@ -838,8 +838,8 @@ h1::before {
 .front #zone1 .cta-1 {
   position: absolute;
   z-index: 6;
-  top: calc(50% - 29px);
-  right: 10%;
+  bottom: -70px;
+  left: 10%;
   margin: 0;
   padding: 0;
 }
@@ -875,7 +875,7 @@ h1::before {
 #zone1 .slider-pagin {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 1rem;
   left: 0;
   background: transparent;
 }
@@ -884,7 +884,7 @@ h1::before {
   display: flex;
   top: inherit;
   right: 0;
-  bottom: 2rem;
+  bottom: 0;
   justify-content: space-between;
   width: 100%;
   padding: 0 2rem;
@@ -938,7 +938,6 @@ h1::before {
   left: 0;
   flex-direction: column;
   justify-content: center;
-  height: 100%;
   padding: 2rem;
 }
 
