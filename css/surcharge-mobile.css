@@ -1032,9 +1032,9 @@ h1::before {
   display: inline-block;
   position: absolute;
   top: 25px;
-  width: 320px;
+  width: 100%;
   height: 425px;
-  background: transparent url('img/readyforit/bg_logo.png') no-repeat;
+  background: transparent url('img/readyforit/bg_logo.png') no-repeat center bottom / 150%;
 }
 
 /*.front .site-wrapper {
