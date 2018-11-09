@@ -1115,7 +1115,7 @@ h1::before {
 
 /* Vidéos */
 .videos-container {
-  background: url('img/readyforit/bg_1.jpg') no-repeat  0 0 / cover;
+  background: #1e2339 url('img/readyforit/bg_1.jpg') no-repeat  0 0 / cover;
   color: #ffffff;
 }
 
@@ -1146,7 +1146,6 @@ h1::before {
 
 .videos {
   width: 300px;
-  height: 161px;
   margin: 1rem auto;
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.85);
 }
@@ -1159,6 +1158,8 @@ h1::before {
 .videos .slick-prev,
 .videos .slick-next {
   z-index: 2;
+  top: inherit;
+  bottom: -15px;
   width: 36px;
   height: 36px;
   background: rgba(0, 0, 0, 0.5);
@@ -1173,7 +1174,9 @@ h1::before {
 }
 
 .videos .slick-dots {
-  bottom: -50px;
+  position: relative;
+  bottom: 0;
+  margin-top: 1rem;
 }
 
 /* Actualités */
