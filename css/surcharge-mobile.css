@@ -1331,9 +1331,7 @@ h1::before {
 .front #zone2 .highlight-container .slider-item {
   flex-direction: column;
   padding-top: 0;
-  transition: all 0.3s ease-out;
   background: #ffffff;
-  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
 }
 
 .front #zone2 .highlight-container .slider-item img {
