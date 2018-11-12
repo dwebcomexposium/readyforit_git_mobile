@@ -1321,9 +1321,7 @@ h1::before {
 }
 
 .front #zone2 .highlight-container .slider {
-  width: 82%;
-  height: 547px;
-  margin: 0 auto 5rem;
+
 }
 
 .front #zone2 .highlight-container .slider-content {
@@ -1331,16 +1329,10 @@ h1::before {
 }
 
 .front #zone2 .highlight-container .slider-item {
-  width: 30%;
-  max-width: 363px;
-  margin: 6rem 4% 0 0;
+  flex-direction: column;
   transition: all 0.3s ease-out;
   background: #ffffff;
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
-}
-
-.front #zone2 .highlight-container .slider-item:hover {
-  margin: 4rem 4% 0 0;
 }
 
 .front #zone2 .highlight-container .slider-item img {
