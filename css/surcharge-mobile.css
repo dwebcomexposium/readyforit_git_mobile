@@ -1307,19 +1307,21 @@ h1::before {
 
 .front #zone2 .highlight-container {
   position: relative;
-  margin: 0 2rem;
 }
 
 .front #zone2 .highlight-container .slider {
-  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
+  padding: 0 2rem;
+  background: transparent;
 }
 
 .front #zone2 .highlight-container .slider-content {
   align-items: flex-start;
+  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
 }
 
 .front #zone2 .highlight-container .slider-item {
   flex-direction: column;
+  margin-right: 2rem;
   padding-top: 0;
   background: #ffffff;
 }
@@ -1337,7 +1339,7 @@ h1::before {
 
 .front #zone2 .highlight-container .la-item-content {
   height: 213px;
-  padding: 2.5rem 2rem;
+  padding: 2rem;
 }
 
 .front #zone2 .highlight-container .la-item-title,
@@ -1367,6 +1369,7 @@ h1::before {
   z-index: 1;
   top: calc(50% - 18px);
   right: 0;
+  bottom: inherit;
   left: 0;
   background: transparent;
 }
@@ -1375,6 +1378,16 @@ h1::before {
   display: flex;
   position: inherit;
   justify-content: space-between;
+  width: 100%;
+}
+
+.front #zone2 .highlight-container .slider-pagin-btn .btn {
+  background: #ffffff;
+  box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.25);
+}
+
+.front #zone2 .highlight-container .slider-pagin-btn .btn .icon {
+  color: #1e2339;
 }
 
 .front #zone2 .highlight-container .slider-pagin-nb {
