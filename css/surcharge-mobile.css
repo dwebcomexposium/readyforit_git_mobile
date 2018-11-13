@@ -88,6 +88,10 @@ h2 {
   font-weight: 500;
 }
 
+h2:not(:first-child) {
+  margin-top: 5rem;
+}
+
 .front h2 {
   padding-bottom: 2rem;
   font-size: 4.4rem;
@@ -180,7 +184,7 @@ a {
 
 /* Button */
 .cta-1,
-.focus1 a,
+.style1 a,
 .cta-2,
 .style2 a,
 .cta-3,
@@ -777,6 +781,7 @@ h1::before {
 .article-intro p,
 .intro h2,
 .article-intro h2 {
+  margin-top: 0 !important;
   color: #ffffff;
   font-size: 1.8rem;
   font-weight: 500;
@@ -795,6 +800,7 @@ h1::before {
 }
 
 .node666356 .intro p {
+  color: #1e2339;
   font-size: 1.6rem;
   font-weight: normal;
 }
@@ -1043,12 +1049,14 @@ h1::before {
   text-align: center;
 }
 
-.article-content ul {
+.article-content ul,
+.content-list-bullet {
   margin: 1rem 0;
   padding-left: 0;
 }
 
-.article-content ul > li::before {
+.article-content ul > li::before,
+.content-list-bullet > li::before {
   margin-right: 2rem;
   margin-left: 0;
   transform: rotate(0);
@@ -1056,7 +1064,8 @@ h1::before {
   background: #1e2339;
 }
 
-.article-content ul.style1 > li strong {
+.article-content ul.style1 > li strong,
+.content-list-bullet ul.style1 > li strong {
   font-size: 1.8rem;
   font-weight: 500;
 }
@@ -1132,6 +1141,7 @@ h1::before {
 .videos {
   width: 300px;
   margin: 1rem auto 0 !important;
+  padding-bottom: 3rem;
 }
 
 .videos .slick-list {
@@ -1149,7 +1159,7 @@ h1::before {
 .videos .slick-next {
   z-index: 2;
   top: inherit;
-  bottom: -15px;
+  bottom: 1rem;
   width: 36px;
   height: 36px;
   background: rgba(255, 255, 255, 0.5);
@@ -1433,6 +1443,7 @@ h1::before {
 
 .front #zone4 .partner {
   position: relative;
+  box-shadow: 0 5px 55px 0 rgba(0, 0, 0, 0.25);
 }
 
 .front #zone4 .slider {
@@ -1813,10 +1824,15 @@ h1::before {
   color: #1e2339;
 }
 
-.gla-item-desc {
+.gla-item-content .gla-item-desc,
+.gla-item-content > h2 {
   margin-top: 1.5rem;
+  font-size: inherit;
+  font-weight: normal;
+  line-height: 1.625;
 }
 
+/* Les lieux */
 .node800165 .gla-item-desc {
   margin-top: 0.5rem;
   color: #7b7c7f;
@@ -1842,7 +1858,9 @@ h1::before {
 }
 
 .gla-item-content .gla-item-btn {
-  order: 3;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
   margin-top: 2rem;
   padding: 0 0 0 0.8rem;
   border-left: 5px solid #00c485;
@@ -1983,7 +2001,8 @@ h1::before {
   text-decoration: none;
 }
 
-#zone2 .grid-la-list .la-highlight > .la-item:first-child .la-item-desc {
+#zone2 .grid-la-list .la-highlight > .la-item:first-child .la-item-desc,
+#zone2 .grid-la-list .la-highlight > .la-item:first-child h2 {
   display: inline;
   background-color: #ffffff;
   font-size: 2.1rem;
@@ -1991,7 +2010,8 @@ h1::before {
   line-height: 1.4;
 }
 
-#zone2 .grid-la-list .la-highlight > .la-item:first-child .la-item-desc u {
+#zone2 .grid-la-list .la-highlight > .la-item:first-child .la-item-desc u,
+#zone2 .grid-la-list .la-highlight > .la-item:first-child h2 u {
   color: #00c485;
   text-decoration: none;
 }
@@ -2034,8 +2054,10 @@ h1::before {
   padding: 2rem;
 }
 
-#zone2 .grid-la-list .la-column .la-item-desc {
+#zone2 .grid-la-list .la-column .la-item-desc,
+#zone2 .grid-la-list .la-column h2:not(:first-child) {
   font-size: inherit;
+  font-weight: normal;
   line-height: 1.2;
 }
 
@@ -2043,30 +2065,69 @@ h1::before {
   margin-top: 1.5rem;
 }
 
-#zone2 .pl-item-group.is-visible {
+.node666356 .layout-2-col {
+  background: #fcfcfc;
+}
+
+#zone2 .pl-item-group {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 5rem;
 }
 
-#zone2 .is-visible .pl-item {
+#zone2 .pl-item {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   width: 50%;
   max-width: 589px;
   margin-bottom: 3rem;
   padding: 2rem;
   border-bottom: 0;
+  background: #ffffff;
   box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.25);
 }
 
-#zone2 .is-visible .pl-item:hover {
+#zone2 .pl-item:hover {
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
+}
+
+#zone2 .pl-item-content {
+  width: 50%;
+}
+
+#zone2 .pl-item-title {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+#zone2 .pl-item-content .ezxmltext-field p {
+  color: #7b7c7f;
+  line-height: 1.2;
+}
+
+#zone2 .pl-item-read-more a,
+#zone2 .pl-item-read-more a:focus,
+#zone2 .pl-item-read-more a:hover {
+  color: #1e2339;
+  font-weight: 500;
+}
+
+#zone2 .pl-item-read-more a .icon {
+  content: '';
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin-right: 1.5rem;
+  background: #ffffff url('img/readyforit/icon_map.png') no-repeat;
 }
 
 
 /* Contact */
 .node646260 .layout-2-col {
+  min-height: 492px;
   background: transparent url('img/readyforit/bg_logo.png') no-repeat right -170px;
 }
 
