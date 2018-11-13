@@ -56,6 +56,10 @@ body {
   text-align: center;
 }
 
+.article-content {
+  padding: 0 2rem;
+}
+
 .article-content figure {
   margin-top: 0;
   padding: 0;
