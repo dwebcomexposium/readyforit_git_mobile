@@ -93,7 +93,6 @@ h2:not(:first-child) {
 }
 
 .front h2 {
-  padding-bottom: 2rem;
   font-size: 4.4rem;
   font-weight: 700;
 }
@@ -1981,6 +1980,7 @@ h1::before {
 
 #zone2 .grid-la-list .la-item-title {
   font-weight: 500;
+  line-height: 1.2;
 }
 
 #zone2 .grid-la-list .la-item-title a,
@@ -2011,6 +2011,7 @@ h1::before {
 
 #zone2 .grid-la-list .la-column {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
   width: 100%;
@@ -2018,8 +2019,16 @@ h1::before {
   padding: 0;
 }
 
+.front #zone2 .grid-la-list .la-column {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  overflow-x: auto;
+}
+
 #zone2 .grid-la-list .la-column .la-item {
-  margin: 0 2rem;
+  display: block;
+  flex: 0 0 80%;
+  margin: 0 0 0 2rem;
   padding: 0;
   transition: all 0.3s ease-out;
   border: 0;
@@ -2048,6 +2057,10 @@ h1::before {
   font-size: inherit;
   font-weight: normal;
   line-height: 1.2;
+}
+
+#zone2 .grid-la-list .la-column h2:not(:first-child) {
+  margin-top: 1.5rem;
 }
 
 #zone2 .grid-la-list .la-column p {
