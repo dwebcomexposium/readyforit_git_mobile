@@ -57,7 +57,7 @@ body {
 }
 
 .article-content {
-  padding: 0 2rem;
+  padding: 2rem;
 }
 
 .article-content figure {
@@ -1913,20 +1913,6 @@ h1,
 .node800165 .gla-btn-read-more:hover,
 .node800165 .gla-btn-read-more:active {
   color: #f39005;
-}
-
-.node798641 #zone2::before {
-  content: '';
-  display: inline-block;
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 240px;
-  background: #00c485 url('img/readyforit/bg_4.jpg') no-repeat left top;
-}
-
-.node798641 #zone2::before {
-  top: 817px;
 }
 
 .node798641 #zone2 {
