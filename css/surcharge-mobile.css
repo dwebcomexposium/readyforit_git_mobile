@@ -551,24 +551,14 @@ a {
 }
 
 .site-footer .inside {
-  display: flex;
-  flex-direction: column;
   padding: 4.25em 0 0;
   border-top: 11px solid #565968;
   background: #1e2339;
 }
 
 .site-footer .inside .footer-top-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 auto 4.25rem;
-}
-
-.footer-logos,
-.footer-newsletter,
-.footer-links {
-  flex: 0 0 31%;
+  margin-bottom: 4.25rem;
+  padding: 0 2rem;
 }
 
 .site-footer a {
@@ -601,16 +591,16 @@ a {
 
 .logo-dg-consultants {
   display: inline-block;
-  width: 93px;
-  height: 76px;
-  margin-right: 2.5rem;
+  width: 81px;
+  height: 66px;
+  margin-right: 1.5rem;
   background: url('img/readyforit/logo_dg.png') no-repeat;
 }
 
 .logo-comexposium {
   display: inline-block;
-  width: 215px;
-  height: 76px;
+  width: 179px;
+  height: 30px;
   background: url('img/readyforit/logo_comexposium.png') no-repeat center;
 }
 
@@ -619,22 +609,23 @@ a {
 }
 
 .footer-newsletter {
-  margin: 0 2rem;
+  margin: 2rem 0;
   padding: 1rem 0;
-  border-right: 1px solid #414555;
-  border-left: 1px solid #414555;
+  border-top: 1px solid #414555;
+  border-bottom: 1px solid #414555;
   text-align: center;
 }
 
 .footer-newsletter p {
-  margin-bottom: 1rem;
-  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
 }
 
 .footer-links .cta-1,
 .footer-links .cta-2 {
   display: block;
-  width: 60%;
+  width: 100%;
+  max-width: 234px;
   margin: 0 auto;
 }
 
@@ -680,37 +671,38 @@ a {
 }
 
 .site-footer .inside .footer-bottom-container {
+  padding: 2rem;
   background: #141828;
   color: #b2b6ca;
-  font-size: 1.21rem;
 }
 
 .site-footer .footer-bottom-container .content {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-wrap: wrap;
   margin: 0 auto;
 }
 
-.footer-bottom-container {
-  display: block;
+.site-footer .footer-bottom-container .content p {
+  flex-shrink: 0;
+  font-size: 1.2rem;
 }
 
 .footer-bottom-container ul {
   display: flex;
+  flex-wrap: wrap;
 }
 
-.footer-bottom-container ul {
-  display: flex;
+.footer-bottom-container li {
+  flex-shrink: 0;
 }
 
 .footer-bottom-container [class^="btn"] {
-  padding: 1rem;
+  padding: 0 1rem 0 0;
   border: 0;
   background: transparent;
   color: #b2b6ca;
   font-family: 'Barlow', sans-serif;
-  font-size: 1.21rem;
+  font-size: 1.2rem;
 }
 
 .btn-primary:focus,
