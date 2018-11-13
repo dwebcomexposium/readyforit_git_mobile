@@ -56,7 +56,8 @@ body {
   text-align: center;
 }
 
-.article-content {
+.article-content,
+.partner-list {
   padding: 2rem;
 }
 
