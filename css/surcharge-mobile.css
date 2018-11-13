@@ -1311,17 +1311,6 @@ h1::before {
   margin: 0 2rem;
 }
 
-.front #zone2 .highlight-container::before {
-  content: '';
-  display: inline-block;
-  position: absolute;
-  top: 170px;
-  right: 0;
-  width: 100%;
-  height: 240px;
-  background: #00e2ff url('img/readyforit/bg_5.jpg') no-repeat right top;
-}
-
 .front #zone2 .highlight-container .slider {
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
 }
@@ -1376,7 +1365,7 @@ h1::before {
 
 .front #zone2 .highlight-container .slider-pagin {
   position: absolute;
-  z-index: 0;
+  z-index: 1;
   top: calc(50% - 18px);
   right: 0;
   left: 0;
