@@ -274,7 +274,7 @@ a {
 .breadcrumb-nav {
   z-index: 1;
   width: 100%;
-  padding: 1.5rem 11rem;
+  padding: 1.5rem;
 }
 
 .bn-item:first-child::before {
@@ -1501,6 +1501,10 @@ h1::before {
 .node646244 .link-view-all,
 .node798641 .link-view-all {
   display: none;
+}
+
+.article-title {
+  position: inherit;
 }
 
 .article-title img {
