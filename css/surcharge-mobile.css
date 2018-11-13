@@ -1310,8 +1310,8 @@ h1::before {
 }
 
 .front #zone2 .highlight-container .slider {
+  height: 455px;
   padding: 0 2rem;
-  overflow: visible;
   background: transparent;
 }
 
