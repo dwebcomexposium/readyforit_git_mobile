@@ -2241,7 +2241,7 @@ body.faq .faq {
 }
 
 .node646244 .grid-la-list {
-  display: flex;
+  padding: 3rem 2rem;
 }
 
 .node646244 .gla-item-content {
@@ -2252,15 +2252,10 @@ body.faq .faq {
   left: 0;
   width: auto;
   height: auto;
+  margin-bottom: 2rem;
   padding: 17rem 0 6rem;
   box-shadow: none;
   text-align: center;
-}
-
-.node646244 .gla-item {
-  width: calc(100% * 1 / 4 - 1em);
-  padding: 6px;
-  box-shadow: none;
 }
 
 .node646244 .gla-item > a {
@@ -2309,6 +2304,7 @@ body.faq .faq {
 }
 
 .node646244 .gla-item .gla-item-content:hover {
+  margin-bottom: 3rem;
   background-color: rgba(243, 144, 5, 0.8);
 }
 
