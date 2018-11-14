@@ -1131,6 +1131,11 @@ h1,
   text-decoration: none;
 }
 
+.videos-content {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
 .videos-content .capsule-green {
   padding: 0 2rem;
 }
