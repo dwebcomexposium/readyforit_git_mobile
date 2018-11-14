@@ -2051,18 +2051,12 @@ h2.gla-item-title {
   background: #fcfcfc;
 }
 
-#zone2 .pl-item-group {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.pl-item-group {
   margin-top: 5rem;
 }
 
-#zone2 .pl-item {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 50%;
+.pl-item {
+  width: 100%;
   max-width: 589px;
   margin-bottom: 3rem;
   padding: 2rem;
@@ -2071,33 +2065,25 @@ h2.gla-item-title {
   box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.25);
 }
 
-#zone2 .pl-item:hover {
-  box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.25);
-}
-
-#zone2 .pl-item-content {
-  width: 50%;
-}
-
-#zone2 .pl-item-title {
+.pl-item-title {
   margin-bottom: 1rem;
   font-size: 1.8rem;
   font-weight: 500;
 }
 
-#zone2 .pl-item-content .ezxmltext-field p {
+.pl-item-content .ezxmltext-field p {
   color: #7b7c7f;
   line-height: 1.2;
 }
 
-#zone2 .pl-item-read-more a,
-#zone2 .pl-item-read-more a:focus,
-#zone2 .pl-item-read-more a:hover {
+.pl-item-read-more a,
+.pl-item-read-more a:focus,
+.pl-item-read-more a:hover {
   color: #1e2339;
   font-weight: 500;
 }
 
-#zone2 .pl-item-read-more a .icon {
+.pl-item-read-more a .icon {
   content: '';
   display: inline-block;
   width: 19px;
@@ -2113,7 +2099,7 @@ h2.gla-item-title {
   display: inline-block;
   width: 100%;
   height: 260px;
-  background: url('img/readyforit/bg_mozaique2.jpg') no-repeat center / 100%;
+  background: url('img/readyforit/bg_mozaique2.png') no-repeat center / 100%;
 }
 
 .node646260 #zone2 .article-content > * {
@@ -2259,6 +2245,7 @@ body.faq .faq {
 }
 
 .node646244 .gla-item > a {
+  display: block;
   background: transparent url('img/readyforit/bg_transport.png') no-repeat center top / cover;
 }
 
