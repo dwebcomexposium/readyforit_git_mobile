@@ -2113,7 +2113,7 @@ h2.gla-item-title {
   display: inline-block;
   width: 100%;
   height: 260px;
-  background: #00c485 url('img/readyforit/bg_mozaique2.jpg') no-repeat center / 100%;
+  background: url('img/readyforit/bg_mozaique2.jpg') no-repeat center / 100%;
 }
 
 .node646260 #zone2 .article-content > * {
