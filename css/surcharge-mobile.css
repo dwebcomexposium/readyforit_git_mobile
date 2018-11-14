@@ -748,7 +748,7 @@ h1,
 .faq-main-title,
 .main-title-with-link > .main-title {
   position: absolute;
-  top: 17rem;
+  top: 14rem;
   right: 2rem;
   left: 2rem;
   padding: 0 !important;
@@ -2085,7 +2085,9 @@ h2.gla-item-title {
 }
 
 #zone2 .grid-la-list .la-column .la-item-content {
+  position: relative;
   width: auto;
+  height: 250px;
   padding: 2rem;
 }
 
@@ -2101,7 +2103,9 @@ h2.gla-item-title {
 }
 
 #zone2 .grid-la-list .la-column p {
-  margin-top: 1.5rem;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
 }
 
 .node666356 .layout-2-col {
