@@ -2054,9 +2054,31 @@ h2.gla-item-title {
 
 .front #zone2 .grid-la-list .la-column {
   display: block;
-  max-width: 365px;
+  max-width: 398px;
   margin: 0;
   padding: 1rem 1rem 3rem;
+}
+
+.front #zone2 .grid-la-list .la-column .slick-list {
+  padding: 0 0 0 1.5rem;
+}
+
+.front #zone2 .grid-la-list .la-column .slick-list {
+  margin-right: 0.5rem;
+}
+
+.front #zone2 .grid-la-list .la-column .slick-prev,
+.front #zone2 .grid-la-list .la-column .slick-next {
+  z-index: 2;
+  top: 35%;
+}
+
+.front #zone2 .grid-la-list .la-column .slick-prev {
+  left: 5px;
+}
+
+.front #zone2 .grid-la-list .la-column .slick-next {
+  right: 5px;
 }
 
 #zone2 .grid-la-list .la-column .la-item {
@@ -2436,6 +2458,5 @@ body.faq .faq {
 @media only screen and (min-device-width: 800px) and (max-device-width: 1024px) {
   .front #zone2 .grid-la-list .la-column {
     max-width: 760px;
-    padding: 1rem 1.5rem 3rem;
   }
 }
