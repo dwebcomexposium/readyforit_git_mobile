@@ -521,6 +521,7 @@ a {
 .quicklinks-navigation {
   z-index: 1;
   width: 100%;
+  margin: 0;
 }
 
 .quicklinks-navigation .ql-list {
