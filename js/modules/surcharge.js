@@ -5,7 +5,7 @@ $(document).ready(function(){
     arrows: true
   });
 
-  $('.font .la-column').slick({
+  $('.front .la-column').slick({
     arrows: true,
     infinite: false,
     slidesToShow: 1,
