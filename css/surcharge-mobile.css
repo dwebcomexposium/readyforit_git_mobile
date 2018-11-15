@@ -1793,6 +1793,7 @@ h1,
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 0;
+  padding: 4rem 0 0;
 }
 
 .gla-item {
