@@ -2448,6 +2448,6 @@ body.faq .faq {
 
 @media only screen and (min-device-width: 800px) and (max-device-width: 1024px) {
   .front #zone2 .grid-la-list .la-column {
-    max-width: 750px;
+    max-width: 720px;
   }
 }
