@@ -8,14 +8,19 @@ $(document).ready(function(){
   $('.front .la-column').slick({
     arrows: true,
     infinite: false,
-    slidesToShow: 1,
-    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 320,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
         }
       }
     ]
