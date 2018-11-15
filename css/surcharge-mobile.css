@@ -1792,13 +1792,9 @@ h1,
   margin: 0;
 }
 
-.gla-item-content {
-  position: relative;
-}
-
 .gla-item {
   width: 100%;
-  max-width: 279px;
+  max-width: 350px;
   margin: 0;
   padding: 0;
   box-shadow: none;
@@ -1812,8 +1808,8 @@ h1,
 }
 
 .gla-item img {
-  width: 569px;
-  height: 285px;
+  width: 100%;
+  max-height: 160px;
 }
 
 .node800165 .gla-item img {
@@ -1822,12 +1818,10 @@ h1,
 }
 
 .gla-item-content {
-  position: absolute;
-  right: 50px;
-  bottom: calc(50% - 112px);
-  left: inherit;
-  width: 673px;
-  height: 225px;
+  right: 0;
+  bottom: inherit;
+  left: 0;
+  height: 250px;
   padding: 2rem;
   background: #ffffff;
   box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.25);
@@ -1835,8 +1829,7 @@ h1,
 }
 
 .node800165 .gla-item-content {
-  right: 1rem;
-  bottom: 0;
+  position: inherit;
   width: 280px;
   height: 224px;
 }
