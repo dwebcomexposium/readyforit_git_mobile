@@ -2056,11 +2056,7 @@ h2.gla-item-title {
   display: block;
   max-width: 393px;
   margin: 0;
-  padding: 1rem 1rem 3rem;
-}
-
-.front #zone2 .grid-la-list .la-column .slick-slide:first-child {
-  margin-left: 1rem;
+  padding: 1rem 0 3rem;
 }
 
 .front #zone2 .grid-la-list .la-column .slick-prev,
