@@ -2045,7 +2045,7 @@ h2.gla-item-title {
 #zone2 .grid-la-list .la-column {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: space-around;
   justify-content: center;
   width: 100%;
   margin: 0 0 6rem;
@@ -2064,16 +2064,12 @@ h2.gla-item-title {
   display: block;
   flex: 0 0 80%;
   max-width: 350px;
-  margin: 0 0 0 2rem;
+  margin: 0 0 3rem;
   padding: 0;
   transition: all 0.3s ease-out;
   border: 0;
   background: #ffffff;
   box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.25);
-}
-
-#zone2 .grid-la-list .la-column .la-item:last-child {
-  margin-right: 2rem;
 }
 
 #zone2 .grid-la-list .la-column .la-item-header {
