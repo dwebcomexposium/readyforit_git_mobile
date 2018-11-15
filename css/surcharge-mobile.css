@@ -2063,10 +2063,6 @@ h2.gla-item-title {
   padding: 0 0 0 1.5rem;
 }
 
-.front #zone2 .grid-la-list .la-column .slick-list {
-  margin-right: 0.5rem;
-}
-
 .front #zone2 .grid-la-list .la-column .slick-prev,
 .front #zone2 .grid-la-list .la-column .slick-next {
   z-index: 2;
