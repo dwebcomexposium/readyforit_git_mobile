@@ -1212,6 +1212,7 @@ h1,
 
 .front #zone2 .grid-la-list {
   margin-left: 0;
+  padding-top: 0;
 }
 
 .front #zone2 .actu-container {
@@ -1985,10 +1986,10 @@ h2.gla-item-title {
   border: 0;
 }
 
-#zone2 .grid-la-list .la-highlight > .la-item:first-child .la-item-header a {
-  display: inline-block;
-  width: 280px;
-  height: 164px;
+#zone2 .grid-la-list .la-highlight > .la-item:first-child .la-item-header {
+  max-width: 420px;
+  max-height: 230px;
+  margin: 0 auto;
   overflow: hidden;
   box-shadow: 0 22px 40px -15px rgba(0, 0, 0, 0.85);
 }
@@ -2004,7 +2005,7 @@ h2.gla-item-title {
 #zone2 .grid-la-list .la-highlight > .la-item:first-child .la-item-content {
   position: relative;
   z-index: 5;
-  top: -5.5rem;
+  top: -2.5rem;
   left: 0;
   width: 100%;
   padding: 0;
