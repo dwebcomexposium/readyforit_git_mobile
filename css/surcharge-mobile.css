@@ -2054,13 +2054,13 @@ h2.gla-item-title {
 
 .front #zone2 .grid-la-list .la-column {
   display: block;
-  max-width: 398px;
+  max-width: 393px;
   margin: 0;
   padding: 1rem 1rem 3rem;
 }
 
-.front #zone2 .grid-la-list .la-column .slick-list {
-  padding: 0 0 0 1.5rem;
+.front #zone2 .grid-la-list .la-column .slick-slide:first-child {
+  margin-left: 1rem;
 }
 
 .front #zone2 .grid-la-list .la-column .slick-prev,
