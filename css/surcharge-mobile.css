@@ -426,7 +426,7 @@ a {
 .header-logo {
   width: 56px;
   height: 56px;
-  background: url('img/readyforit/logo.png') no-repeat;
+  background: url('img/readyforit/logo.png') no-repeat center / 100%;
 }
 
 .header-date {
@@ -1793,14 +1793,14 @@ h1,
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 0;
-  padding: 4rem 0 0;
+  padding: 5rem 0 0;
 }
 
 .gla-item {
   width: 100%;
   max-width: 350px;
   height: 415px;
-  margin: 2rem 0;
+  margin: 0 0 3rem;
   padding: 0;
   box-shadow: none;
 }
@@ -1808,6 +1808,7 @@ h1,
 .node800165 .gla-item {
   width: 300px;
   height: 450px;
+  margin-bottom: 5rem;
 }
 
 .gla-item img {
@@ -1865,7 +1866,7 @@ h2.gla-item-title {
 
 /* Les lieux */
 .node800165 #zone2 {
-  padding: 4rem 1rem;
+  padding: 0 1rem;
 }
 
 .node800165 .gla-item-desc {
