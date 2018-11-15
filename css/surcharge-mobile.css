@@ -2433,8 +2433,8 @@ body.faq .faq {
   text-transform: inherit;
 }
 
-@media only screen and (min-device-width: 730px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width: 800px) and (max-device-width: 1024px) and (orientation: landscape) {
   .front #zone2 .grid-la-list .la-column {
-    max-width: 700px;
+    max-width: 760px;
   }
 }

@@ -8,16 +8,11 @@ $(document).ready(function(){
   $('.front .la-column').slick({
     arrows: true,
     infinite: false,
+    slidesToShow: 2,
+    slidesToScroll: 2,
     responsive: [
       {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2
-        }
-      },
-      {
-        breakpoint: 320,
+        breakpoint: 800,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
