@@ -2053,11 +2053,10 @@ h2.gla-item-title {
 }
 
 .front #zone2 .grid-la-list .la-column {
-  flex-wrap: nowrap;
-  justify-content: flex-start;
+  display: block;
+  max-width: 365px;
   margin: 0;
-  padding-bottom: 6rem;
-  overflow-x: auto;
+  padding: 1rem 1rem 3rem;
 }
 
 #zone2 .grid-la-list .la-column .la-item {
@@ -2432,4 +2431,10 @@ body.faq .faq {
   color: #1e2339;
   text-align: left;
   text-transform: inherit;
+}
+
+@media only screen and (min-device-width: 730px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .front #zone2 .grid-la-list .la-column {
+    max-width: 700px;
+  }
 }

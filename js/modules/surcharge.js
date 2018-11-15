@@ -2,12 +2,21 @@ $(document).ready(function(){
   /** Slick init **/
   $('.videos').slick({
     dots: true,
-    arrows: true,
+    arrows: true
   });
 
   $('.font .la-column').slick({
-    dots: true,
     arrows: true,
+    infinite: false,
+    slidesToShow: 1,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2
+        }
+      }
+    ]
   });
 
   /** Height zone1 + position

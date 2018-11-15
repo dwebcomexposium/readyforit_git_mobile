@@ -115,15 +115,16 @@
   display: block;
   position: absolute;
   top: 50%;
-  width: 20px;
-  height: 20px;
+  width: 36px;
+  height: 36px;
   padding: 0;
   -webkit-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
   border: none;
   outline: none;
-  background: transparent;
+  background: #ffffff;
+  box-shadow: 0 0 7px -2px rgba(0, 0, 0, 0.25);
   color: transparent;
   font-size: 0;
   line-height: 0;
@@ -135,7 +136,7 @@
 .slick-next:hover,
 .slick-next:focus {
   outline: none;
-  background: transparent;
+  background: #ffffff;
   color: transparent;
 }
 
@@ -154,11 +155,12 @@
 .slick-prev::before,
 .slick-next::before {
   opacity: 0.75;
-  color: #ffffff;
+  color: #1e2339;
   font-family: 'icon';
   font-size: 1.4rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: bold;
   line-height: 1;
 }
 
