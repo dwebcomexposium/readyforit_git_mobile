@@ -2406,18 +2406,8 @@ body.faq .faq {
   display: none;
 }
 
-.error404 .layout-2-col {
-  min-height: 492px;
-  background: transparent url('img/readyforit/bg_404.png') no-repeat right -170px;
-}
-
-.error404 #zone2 {
-  display: block;
-  margin: 0 auto;
-}
-
-.error404 .error-page {
-  width: 42%;
+.error404 .ep-intro {
+  padding: 4rem 2rem 0;
 }
 
 .error404 .main-title {
@@ -2438,6 +2428,10 @@ body.faq .faq {
   padding: 0;
   color: #1e2339;
   text-align: left;
+}
+
+.error404.intro p {
+  color: #1e2339;
 }
 
 .error404 .inside.ep-form-wrap {
