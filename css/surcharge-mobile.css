@@ -2430,7 +2430,7 @@ body.faq .faq {
   text-align: left;
 }
 
-.error404.intro p {
+.error404 .intro p {
   color: #1e2339;
 }
 
