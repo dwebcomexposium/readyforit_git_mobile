@@ -41,5 +41,19 @@ $(document).ready(function(){
   }
 
   /** Scroll sub nav to active link **/
+  var $quickLinksList = $('.quicklinks-navigation .ql-list.unstyled');
+  var quickLinksListWidth = 0;
 
+  $('.ql-item', $quickLinksList).each(function() {
+    var $self = $(this);
+    quickLinksListWidth += parseInt($self.width());
+  });
+
+  if ($quickLinksList.length > 0) {
+    if (quickLinksListWidth > $(document).width()) {
+      $quickLinksList.animate({scrollLeft: parseInt($('.ql-item-link.is-active').position().left)}, 0);
+    } else {
+      $quickLinksList.css('justify-content', 'center');
+    }
+  }
 });
