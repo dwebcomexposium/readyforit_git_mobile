@@ -459,6 +459,11 @@ a {
 }
 
 /* Navigation */
+.headroom {
+  position: fixed !important;
+  background: #ffffff;
+}
+
 .main-navigation {
   top: 70px;
 }
