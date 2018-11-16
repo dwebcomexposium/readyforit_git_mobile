@@ -336,6 +336,7 @@ a {
 }
 
 .cc-cookies {
+  position: fixed;
   top: inherit;
   bottom: 0;
   padding: 1rem 5%;
