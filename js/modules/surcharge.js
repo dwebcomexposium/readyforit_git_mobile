@@ -51,7 +51,7 @@ $(document).ready(function(){
 
   if ($quickLinksList.length > 0) {
     if (quickLinksListWidth > $(document).width()) {
-      $quickLinksList.animate({scrollLeft: parseInt($('.ql-item-link.is-active').position.left)}, 0);
+      $quickLinksList.animate({scrollLeft: parseInt($('.ql-item-link.is-active').position().left)}, 0);
     } else {
       $quickLinksList.css('justify-content', 'center');
     }
