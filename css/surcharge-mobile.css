@@ -37,6 +37,10 @@ body {
   color: #1e2339;
 }
 
+div,textarea, table, td, th, code, pre, samp {
+  hyphens: none;
+}
+
 .site-wrapper {
   padding: 0 0 2rem;
   background-color: #ffffff;
@@ -414,7 +418,6 @@ a {
 .wrapper {
   max-width: inherit;
   padding: 70px 0 0;
-  overflow-wrap: break-word;
 }
 
 .header-container {
