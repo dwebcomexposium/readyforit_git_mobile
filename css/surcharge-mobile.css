@@ -2437,8 +2437,7 @@ body.faq .faq {
 }
 
 /* Pages liens footer */
-.parent659648 .article-title,
-.parent659648 .article-intro {
+.parent659648 .article-title {
   margin: 0 auto 2rem;
   padding: 2rem 2rem 0;
 }
@@ -2455,7 +2454,8 @@ body.faq .faq {
 }
 
 .parent659648 .article-intro {
-  padding: 2rem 2rem 0;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 @media only screen and (min-device-width: 800px) and (max-device-width: 1024px) {
