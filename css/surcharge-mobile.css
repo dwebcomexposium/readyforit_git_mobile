@@ -413,6 +413,7 @@ a {
 .wrapper {
   max-width: inherit;
   padding: 70px 0 0;
+  overflow-wrap: break-word;
 }
 
 .header-container {
