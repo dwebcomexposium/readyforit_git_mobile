@@ -25,6 +25,7 @@ $(document).ready(function(){
   var $articleIntro = $('.article-intro');
   var $mainTitle = $('.at-main-title');
   var $articleTitle = $('.article-title');
+
   if ($articleIntro.length > 0 && $mainTitle.length > 0) {
     $articleIntro.css('top', $mainTitle.position().top + $mainTitle.height() + 20 + 'px');
     var headerHeight = $articleIntro.height() + $mainTitle.height() + $('.quicklinks-navigation').height() + $('.breadcrumb-nav .inside').height() + 60;
@@ -42,6 +43,7 @@ $(document).ready(function(){
   /** Scroll sub nav to active link **/
   var $quickLinksList = $('.quicklinks-navigation .ql-list.unstyled');
   var quickLinksListWidth = 0;
+
   $('.ql-item', $quickLinksList).each(function() {
     var $self = $(this);
     quickLinksListWidth += parseInt($self.width());
