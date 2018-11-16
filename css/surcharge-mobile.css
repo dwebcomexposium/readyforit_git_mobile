@@ -435,6 +435,13 @@ a {
   background: url('img/readyforit/logo.png') no-repeat center / 100%;
 }
 
+.title-logo {
+  display: block;
+  position: relative;
+  font-size: 2rem;
+  text-indent: -9999px;
+}
+
 .header-date {
   margin-left: 2rem;
   color: #1e2339;
