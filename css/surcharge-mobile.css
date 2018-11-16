@@ -2071,9 +2071,10 @@ h2.gla-item-title {
 
 .front #zone2 .grid-la-list .la-column {
   display: block;
-  max-width: 393px;
-  margin: 0;
+  max-width: 329px;
+  margin: 0 0 3rem;
   padding: 1rem 0 3rem;
+  box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.25);
 }
 
 .front #zone2 .grid-la-list .la-column .slick-prev,
@@ -2098,7 +2099,6 @@ h2.gla-item-title {
   transition: all 0.3s ease-out;
   border: 0;
   background: #ffffff;
-  box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.25);
 }
 
 #zone2 .grid-la-list .la-column .la-item-header {
@@ -2491,5 +2491,10 @@ body.faq .faq {
 @media only screen and (min-device-width: 800px) and (max-device-width: 1024px) {
   .front #zone2 .grid-la-list .la-column {
     max-width: 720px;
+    box-shadow: none;
+  }
+
+  #zone2 .grid-la-list .la-column .la-item {
+    box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.25);
   }
 }
