@@ -2437,8 +2437,14 @@ body.faq .faq {
 }
 
 /* Pages liens footer */
-.parent659648 h1,
+.parent659648 .article-title,
 .parent659648 .article-intro {
+  margin: 0 auto 2rem;
+}
+
+.parent659648 h1,
+.parent659648 .article-intro,
+.parent659648 .article-intro p {
   display: block;
   position: inherit;
   padding: 0;
