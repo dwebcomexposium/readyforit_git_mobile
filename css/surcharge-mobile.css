@@ -464,6 +464,11 @@ a {
   background: #ffffff;
 }
 
+.headroom--unpinned {
+  top: 0;
+  transform: translateY(0);
+}
+
 .main-navigation {
   top: 70px;
 }
