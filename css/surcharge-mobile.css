@@ -2437,8 +2437,17 @@ body.faq .faq {
 }
 
 /* Pages liens footer */
+.sitemap {
+  padding: 2rem;
+}
+
+.sitemap .sm-item-title {
+  border-bottom: 0;
+  color: #1e2339;
+}
+
 .parent659648 .article-title {
-  margin: 0 auto 2rem;
+  margin: 0 auto;
   padding: 2rem 2rem 0;
 }
 
@@ -2454,7 +2463,7 @@ body.faq .faq {
 }
 
 .parent659648 .article-intro {
-  margin: 0 auto;
+  margin: 2rem auto 0;
   padding: 0 2rem;
 }
 
