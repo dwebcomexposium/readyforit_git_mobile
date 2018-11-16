@@ -2461,8 +2461,8 @@ body.faq .faq {
 }
 
 /* Pages liens footer */
-.sitemap {
-  padding: 2rem;
+.sitemap .wrapper {
+  padding: 90px 2rem 2rem;
 }
 
 .sitemap .sm-item-title {
