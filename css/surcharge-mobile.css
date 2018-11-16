@@ -2087,7 +2087,7 @@ h2.gla-item-title {
 }
 
 .front #zone2 .grid-la-list .la-column .slick-next {
-  right: 5px;
+  right: -16px;
 }
 
 #zone2 .grid-la-list .la-column .la-item {
