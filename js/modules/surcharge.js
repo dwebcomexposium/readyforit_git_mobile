@@ -41,19 +41,29 @@ $(document).ready(function(){
   }
 
   /** Scroll sub nav to active link **/
-  var $quickLinksList = $('.quicklinks-navigation .ql-list.unstyled');
-  var quickLinksListWidth = 0;
+  if (typeof $('body').data('locationPath') != 'undefined') {
+    var t = String($('body').data('locationPath'))
+      , a = t.split(',').slice(1);
+    for (var i in a) {
+        $('.main-navigation').find('a').has('span.mn-link-text[data-location-id="' + a[i] + '"]').addClass('is-active');
+        $('.quicklinks-navigation').find('a').has('span.ql-item-txt[data-location-id="' + a[i] + '"]').addClass('is-active')
+    }
 
-  $('.ql-item', $quickLinksList).each(function() {
-    var $self = $(this);
-    quickLinksListWidth += parseInt($self.width());
-  });
+    var $quickLinksList = $('.quicklinks-navigation .ql-list.unstyled');
+    var quickLinksListWidth = 0;
 
-  if ($quickLinksList.length > 0) {
-    if (quickLinksListWidth > $(document).width()) {
-      $quickLinksList.animate({scrollLeft: parseInt($('.ql-item-link.is-active').position().left)}, 0);
-    } else {
-      $quickLinksList.css('justify-content', 'center');
+    $('.ql-item', $quickLinksList).each(function() {
+      var $self = $(this);
+      quickLinksListWidth += parseInt($self.width());
+    });
+
+    if ($quickLinksList.length > 0) {
+      if (quickLinksListWidth > $(document).width()) {
+        $quickLinksList.animate({scrollLeft: parseInt($('.ql-item-link.is-active').position().left)}, 0);
+      } else {
+        $quickLinksList.css('justify-content', 'center');
+      }
     }
   }
+
 });
