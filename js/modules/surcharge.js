@@ -44,10 +44,9 @@ $(document).ready(function(){
   if (typeof $('body').data('locationPath') != 'undefined') {
     var t = String($('body').data('locationPath'))
       , a = t.split(',').slice(1);
-    /*for (var i in a) {
-        $('.main-navigation').find('a').has('span.mn-link-text[data-location-id="' + a[i] + '"]').addClass('is-active');
+    for (var i in a) {
         $('.quicklinks-navigation').find('a').has('span.ql-item-txt[data-location-id="' + a[i] + '"]').addClass('is-active')
-    }*/
+    }
 
     var $quickLinksList = $('.quicklinks-navigation .ql-list.unstyled');
     var quickLinksListWidth = 0;
