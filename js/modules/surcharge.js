@@ -63,7 +63,7 @@ $(document).ready(function(){
           $quickLinksList.animate({scrollLeft: parseInt($('.ql-item-link.is-active').position().left)}, 0);
         }
         catch(e) {
-          console.log(e);
+          console.log('error', e);
         }
       } else {
         $quickLinksList.css('justify-content', 'center');
