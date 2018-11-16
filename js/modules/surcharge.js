@@ -44,10 +44,10 @@ $(document).ready(function(){
   if (typeof $('body').data('locationPath') != 'undefined') {
     var t = String($('body').data('locationPath'))
       , a = t.split(',').slice(1);
-    for (var i in a) {
+    /*for (var i in a) {
         $('.main-navigation').find('a').has('span.mn-link-text[data-location-id="' + a[i] + '"]').addClass('is-active');
         $('.quicklinks-navigation').find('a').has('span.ql-item-txt[data-location-id="' + a[i] + '"]').addClass('is-active')
-    }
+    }*/
 
     var $quickLinksList = $('.quicklinks-navigation .ql-list.unstyled');
     var quickLinksListWidth = 0;
@@ -59,7 +59,12 @@ $(document).ready(function(){
 
     if ($quickLinksList.length > 0) {
       if (quickLinksListWidth > $(document).width()) {
-        $quickLinksList.animate({scrollLeft: parseInt($('.ql-item-link.is-active').position().left)}, 0);
+        try {
+          $quickLinksList.animate({scrollLeft: parseInt($('.ql-item-link.is-active').position().left)}, 0);
+        }
+        catch(e) {
+          console.log(e);
+        }
       } else {
         $quickLinksList.css('justify-content', 'center');
       }
