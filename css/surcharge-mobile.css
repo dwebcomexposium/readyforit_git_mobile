@@ -1716,11 +1716,12 @@ p.cl-item-social {
 
 /* infos popup */
 #noty_center_layout_container.i-am-new {
-  top: 0 !important;
-  left: 0 !important;
+  top: 2rem !important;
+  left: calc(50% - 175px) !important;
   width: 100% !important;
   max-width: 350px;
-  height: 440px !important;
+  height: 94vh !important;
+  overflow: auto;
 }
 
 #noty_center_layout_container.i-am-new li {
@@ -1737,13 +1738,14 @@ p.cl-item-social {
 .noty_message .button_close {
   position: absolute;
   z-index: 2;
-  top: -1.5rem;
-  right: -1.5rem;
+  top: 0;
+  right: 0;
   width: 36px;
   height: 36px;
   background: #ffffff;
   box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.22);
   color: transparent;
+  text-align: right;
 }
 
 .noty_message .button_close::before {
@@ -1782,7 +1784,7 @@ p.cl-item-social {
   position: relative !important;
   flex-direction: column;
   height: 440px;
-  padding: 6rem 3rem 0;
+  padding: 2rem 2rem 0;
   float: left;
   text-align: left;
 }
@@ -1838,15 +1840,20 @@ p.cl-item-social {
   order: 4;
 }
 
+.noty_message .mycl-item p.cl-item-phone:nth-child(2n) {
+  margin-top: 2rem;
+}
+
 .noty_message .mycl-item .cl-item-social {
   order: 1;
   margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 .noty_buttons .prevButton,
 .noty_buttons .nextButton {
   position: absolute;
-  top: calc(50% - 18px);
+  top: 18%;
   width: 36px;
   height: 36px;
   margin: 0;
@@ -1857,11 +1864,11 @@ p.cl-item-social {
 }
 
 .noty_buttons .prevButton {
-  left: -5rem;
+  left: 0;
 }
 
 .noty_buttons .nextButton {
-  right: -5rem;
+  right: 0;
 }
 
 .noty_buttons .prevButton::before,
