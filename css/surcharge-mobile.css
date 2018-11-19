@@ -1726,6 +1726,7 @@ p.cl-item-social {
 
 #noty_center_layout_container.i-am-new li {
   width: 100% !important;
+  margin: 0 !important;
   overflow: visible !important;
   border: 0 !important;
 }
@@ -1831,6 +1832,11 @@ p.cl-item-social {
   order: 1;
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+.noty_buttons {
+  padding: 0 !important;
+  border: 0 !important;
 }
 
 .noty_buttons .prevButton,
