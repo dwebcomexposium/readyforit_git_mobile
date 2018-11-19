@@ -1818,14 +1818,14 @@ h1,
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 0;
-  padding: 5rem 0 0;
+  padding: 5rem 2rem 0;
 }
 
 .gla-item {
   width: 100%;
   max-width: 350px;
   height: 415px;
-  margin: 0 2rem 3rem;
+  margin: 0 0 3rem;
   padding: 0;
   box-shadow: none;
 }
