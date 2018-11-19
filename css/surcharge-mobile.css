@@ -2103,12 +2103,16 @@ h2.gla-item-title {
 #zone2 .grid-la-list .la-column .la-item {
   display: block;
   max-width: 350px;
-  margin: 0 0 3rem;
+  margin: 0 2rem 3rem;
   padding: 0;
   transition: all 0.3s ease-out;
   border: 0;
   background: #ffffff;
   box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.25);
+}
+
+.front #zone2 .grid-la-list .la-column .la-item {
+  margin: 0 0 3rem;
 }
 
 #zone2 .grid-la-list .la-column .la-item-header {
