@@ -1650,7 +1650,7 @@ p.cl-item-phone:nth-child(1n) {
 }
 
 p.cl-item-phone:nth-child(2n) {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .cl-item-phone .label {
