@@ -1782,7 +1782,7 @@ p.cl-item-social {
   position: relative !important;
   flex-direction: column;
   height: 440px;
-  padding: 4rem 3rem 0;
+  padding: 6rem 3rem 0;
   float: left;
   text-align: left;
 }
@@ -1804,18 +1804,20 @@ p.cl-item-social {
 }
 
 .noty_message .mycl-item .cl-item-title {
+  order: 2;
   margin-bottom: 1rem;
   font-size: 2.8rem;
 }
 
 .noty_message .mycl-item .cl-item-subtitle {
+  order: 3;
   font-size: 1.6rem;
   font-weight: 500;
 }
 
 .noty_message .mycl-item .cl-item-desc {
   display: inline-block;
-  order: 3;
+  order: 6;
   margin-top: 2.5rem;
   padding-bottom: 3rem;
   overflow-y: auto;
@@ -1824,7 +1826,7 @@ p.cl-item-social {
 
 .noty_message .mycl-item .cl-item-email {
   position: relative;
-  order: 2;
+  order: 5;
 }
 
 .noty_message .mycl-item .cl-item-email a {
@@ -1833,13 +1835,11 @@ p.cl-item-social {
 }
 
 .noty_message .mycl-item .cl-item-phone {
-  order: 1;
+  order: 4;
 }
 
 .noty_message .mycl-item .cl-item-social {
-  position: absolute;
-  top: 4rem;
-  right: 3rem;
+  order: 1;
   margin-top: 0;
 }
 
