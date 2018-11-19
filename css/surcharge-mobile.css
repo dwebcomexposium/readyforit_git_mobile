@@ -1723,10 +1723,10 @@ p.cl-item-social {
 
 /* infos popup */
 #noty_center_layout_container.i-am-new {
-  top: calc(50% - 253px) !important;
-  left: 22% !important;
+  top: 0 !important;
+  left: 0 !important;
   width: 100% !important;
-  max-width: 1099px;
+  max-width: 350px;
   height: 440px !important;
 }
 
@@ -1768,10 +1768,15 @@ p.cl-item-social {
   speak: none;
 }
 
+.noty_message .mycl-item .cl-item-illust {
+  display: none;
+}
+
 .noty_message .mycl-item .cl-item-photo {
   position: inherit !important;
-  width: 430px;
-  height: 440px;
+  width: 100%;
+  max-width: 350px;
+  height: 280px;
   float: left;
 }
 
@@ -1783,7 +1788,6 @@ p.cl-item-social {
   display: flex;
   position: relative !important;
   flex-direction: column;
-  width: 60.8%;
   height: 440px;
   padding: 4rem 3rem 0;
   float: left;
