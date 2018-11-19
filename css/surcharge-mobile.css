@@ -693,15 +693,15 @@ a {
 }
 
 .twitter-icon {
-  background: url('img/readyforit/icon_twitter.png') no-repeat;
+  background: url('img/readyforit/icon_twitter.png') no-repeat center / 100%;
 }
 
 .linkedin-icon {
-  background: url('img/readyforit/icon_linkedin.png') no-repeat;
+  background: url('img/readyforit/icon_linkedin.png') no-repeat center / 100%;
 }
 
 .youtube-icon {
-  background: url('img/readyforit/icon_youtube.png') no-repeat;
+  background: url('img/readyforit/icon_youtube.png') no-repeat center / 100%;
 }
 
 .site-footer .inside .footer-bottom-container {
@@ -960,6 +960,7 @@ h1,
   background: transparent;
   color: #ffffff;
   font-size: 1.4rem;
+  font-weight: 700;
   text-transform: inherit;
 }
 
@@ -1021,7 +1022,7 @@ h1,
   padding-left: 0.8rem;
   border-left: 5px solid #ff3100;
   color: #1e2339;
-  font-weight: 500;
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -1230,7 +1231,7 @@ h1,
   border-left: 5px solid #00c485;
   color: #1e2339;
   font-size: 1.8rem;
-  font-weight: 500;
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -1393,7 +1394,7 @@ h1,
   background: transparent;
   color: #1e2339;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: inherit;
 }
 
