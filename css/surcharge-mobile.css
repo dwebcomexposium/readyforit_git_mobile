@@ -1777,6 +1777,7 @@ p.cl-item-social {
 
 .noty_message .mycl-item .cl-item-photo img {
   height: 100%;
+  object-fit: cover;
 }
 
 .noty_message .mycl-item .cl-item-content {
