@@ -101,6 +101,7 @@ $(document).ready(function(){
   screenLauncher.onclick = createCookie('screen_launcher_cookie','screen_launcher_cookie',7);
   var screenLauncherAction = readCookie('screen_launcher_cookie')
   if (screenLauncherAction) {
+    console.log('screenLauncherAction')
     screenLauncher.style.display = 'none';
   }
 
