@@ -538,6 +538,14 @@ a {
 
 
 /***********************************/
+/* SCREEN LAUNCHER */
+/***********************************/
+.screen-launcher {
+  background: url('img/readyforit/screenlauncher.png') no-repeat center;
+}
+
+
+/***********************************/
 /* SOUS NAV */
 /***********************************/
 .quicklinks-navigation {
