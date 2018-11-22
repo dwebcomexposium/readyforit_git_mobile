@@ -559,6 +559,10 @@ a {
   background: #ffffff;
 }
 
+.screen-launcher .header-date p {
+  font-size: 1.8rem;
+}
+
 .screen-launcher .screen-close {
   width: 36px;
   height: 36px;
