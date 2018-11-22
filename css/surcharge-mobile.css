@@ -541,7 +541,43 @@ a {
 /* SCREEN LAUNCHER */
 /***********************************/
 .screen-launcher {
+  display: flex;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
   background: url('img/readyforit/screenlauncher.png') no-repeat center;
+}
+
+.screen-launcher .header-date {
+  margin: 0;
+  padding: 1rem 2rem;
+  background: #ffffff;
+}
+
+.screen-launcher .screen-close {
+  width: 36px;
+  height: 36px;
+  background: #1e2339;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.22);
+}
+
+.noty_message .button_close::before {
+  content: "\e61f";
+  color: #ffffff;
+  font-family: 'icon';
+  font-size: 1.8rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.8;
+  text-transform: none;
+  speak: none;
 }
 
 
