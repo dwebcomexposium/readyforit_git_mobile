@@ -71,38 +71,39 @@ $(document).ready(function(){
   }
 
   /** Cookie for screen lancher **/
-  function createCookie(name,value,days) {
-    if (days) {
-      var date = new Date();
-      date.setTime(date.getTime()+(days*24*60*60*1000));
-      var expires = "; expires="+date.toGMTString();
-    }
-    else var expires = "";
-    document.cookie = name+"="+value+expires+"; path=/";
+  function setCookie(name, value, days) {
+    var d = new Date();
+    d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
+    var expires = "expires="+ d.toUTCString();
+    document.cookie = name + "=" + value + ";" + expires + ";path=/";
   }
 
-  function readCookie(name) {
-    var nameEQ = name + "=";
-    var ca = document.cookie.split(';');
-    for(var i=0;i < ca.length;i++) {
+  function getCookie(name) {
+    var cookieName = name + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
       var c = ca[i];
-      while (c.charAt(0)==' ') c = c.substring(1,c.length);
-      if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(cookieName) == 0) {
+        return c.substring(cookieName.length, c.length);
+      }
     }
-    return null;
+    return "";
   }
 
-  function eraseCookie(name) {
-    createCookie(name,"",-1);
-  }
-
-  /** Set cookie **/
   var screenLauncher = document.getElementById('screen_launcher');
-  screenLauncher.onclick = createCookie('screen_launcher_cookie','screen_launcher_cookie',7);
-  var screenLauncherAction = readCookie('screen_launcher_cookie')
-  if (screenLauncherAction) {
-    console.log('screenLauncherAction')
-    screenLauncher.style.display = 'none';
-  }
+  var closeScreenLauncher = document.getElementById('screen_close');
 
+  closeScreenLauncher.addEventListener('click', function() {
+    setCookie('screen_launcher_cookie', 'screen_launcher_cookie', 365);
+    screenLauncher.style.display = 'none';
+  });
+
+  var cookieName = getCookie("screen_launcher_cookie");
+  if (cookieName === '') {
+    screenLauncher.style.display = 'flex';
+  }
 });
