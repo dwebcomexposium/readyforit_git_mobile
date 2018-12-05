@@ -396,7 +396,8 @@ a {
 }
 
 .lang-switcher {
-  right: 15rem;
+  position: absolute;
+  right: 5rem;
   padding: 0.38rem 0;
   background: #1e2339;
 }
