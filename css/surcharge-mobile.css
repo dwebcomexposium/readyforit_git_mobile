@@ -421,7 +421,7 @@ a {
 
 .main-navigation.menu-container .ls-lang-list {
   display: flex !important;
-  position: inherit;
+  position: static;
   float: right;
   background: transparent;
 }
@@ -442,6 +442,24 @@ a {
   border-top: solid 5px transparent;
   border-bottom: solid 5px transparent;
   border-left: solid 7px #ffffff;
+}
+
+.ls-lang-item.ls-lang-en.is-active::before,
+.ls-lang-item.ls-lang-fr.is-active::before {
+  display: inline-block;
+  position: absolute;
+  z-index: 6;
+  left: 0;
+  background: #1e2339;
+  text-transform: capitalize;
+}
+
+.ls-lang-item.ls-lang-en.is-active::before {
+  content: "Language:";
+}
+
+.ls-lang-item.ls-lang-fr.is-active::before {
+  content: "Langue :";
 }
 
 .main-navigation.menu-container .ls-lang-link {
@@ -497,7 +515,7 @@ abbr[title] {
 .sb-menu-trigger {
   top: 10px;
   right: 0;
-  left: initial;
+  left: inherit;
   color: #ff3100;
 }
 
@@ -541,7 +559,7 @@ abbr[title] {
 }
 
 .mn-item-lvl-1 {
-  min-height: initial;
+  min-height: inherit;
   border-color: #ebebeb;
   color: #1e2339;
 }
