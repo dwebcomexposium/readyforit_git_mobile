@@ -396,24 +396,55 @@ a {
 }
 
 .lang-switcher {
-  position: absolute;
-  right: 5rem;
-  padding: 0.38rem 0;
-  background: #1e2339;
+  margin: 0;
+  padding: 0;
+  float: none;
+  /*border-top: 1px solid #565968;*/
+  background: transparent;
+  font-size: 1.8rem;
 }
 
 .ls-trigger {
-  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  padding: 0.5rem 1.5rem 0.5rem 0;
   color: #ffffff;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 
 .ls-trigger::after {
-  border-color: #ffffff transparent transparent;
+  display: none;
 }
 
 .ls-trigger:focus {
   outline: 0;
+}
+
+.main-navigation.menu-container .ls-lang-list {
+  display: flex;
+  float: right;
+}
+
+.main-navigation.menu-container .ls-lang-item {
+  opacity: 0.5;
+}
+
+.main-navigation.menu-container .ls-lang-item.is-active {
+  opacity: 1;
+  font-weight: normal;
+}
+
+.main-navigation.menu-container .ls-lang-item.is-active {
+  opacity: 1;
+  font-weight: normal;
+}
+
+.main-navigation.menu-container .ls-lang-link {
+  padding: 0 0 0 3rem;
+  color: #ffffff !important;
+}
+
+abbr[title] {
+  text-decoration: none;
 }
 
 .wrapper {
@@ -482,8 +513,19 @@ a {
   transform: translateY(0);
 }
 
-.main-navigation {
+.main-navigation.menu-container {
   top: 70px;
+  min-height: 49px;
+  padding: 1rem 3rem;
+  background: #1e2339;
+}
+
+.main-navigation.js-toggle-target {
+  top: 119px;
+}
+
+.mn-menu {
+  padding: 0;
 }
 
 .mn-menu,
@@ -493,7 +535,7 @@ a {
 
 .mn-item-lvl-1 {
   min-height: initial;
-  border-bottom: 0;
+  border-color: 1px solid #ebebeb;
   color: #1e2339;
 }
 
@@ -503,9 +545,9 @@ a {
 }
 
 .mn-item-lvl-1 > .mn-link {
-  padding: 0.75rem 3rem 0.75rem 1rem;
+  padding: 1.3rem 4rem 1.3rem 2rem;
   color: #1e2339;
-  font-size: 1.8rem;
+  font-size: 2rem;
   text-transform: inherit;
 }
 
@@ -530,10 +572,28 @@ a {
   color: #003239;
 }
 
+.mn-menu-submenu .mn-link {
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
 .mn-menu-submenu .mn-link:hover,
 .mn-menu-submenu .mn-link:focus,
 .mn-menu-submenu .mn-link.is-active {
   background: #ffffff;
+  color: #ff3100;
+}
+
+.mn-item-has-submenu::after {
+  content: '+';
+  right: 0.8rem;
+  font-family: 'Barlow', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.mn-item-has-submenu.is-open::after {
+  content: '-';
   color: #ff3100;
 }
 
