@@ -435,9 +435,13 @@ a {
   font-weight: normal;
 }
 
-.main-navigation.menu-container .ls-lang-item.is-active {
-  opacity: 1;
-  font-weight: normal;
+.main-navigation.menu-container .ls-lang-item.is-active .ls-lang-link::before {
+  content: "";
+  display: inline-block;
+  margin: 0 5px;
+  border-top: solid 5px transparent;
+  border-bottom: solid 5px transparent;
+  border-left: solid 7px #ffffff;
 }
 
 .main-navigation.menu-container .ls-lang-link {
