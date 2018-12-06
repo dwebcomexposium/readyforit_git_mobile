@@ -420,8 +420,10 @@ a {
 }
 
 .main-navigation.menu-container .ls-lang-list {
-  display: flex;
+  display: flex !important;
+  position: inherit;
   float: right;
+  background: transparent;
 }
 
 .main-navigation.menu-container .ls-lang-item {
@@ -535,7 +537,7 @@ abbr[title] {
 
 .mn-item-lvl-1 {
   min-height: initial;
-  border-color: 1px solid #ebebeb;
+  border-color: #ebebeb;
   color: #1e2339;
 }
 
