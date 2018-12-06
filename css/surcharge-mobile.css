@@ -422,6 +422,8 @@ a {
 .main-navigation.menu-container .ls-lang-list {
   display: flex !important;
   position: static;
+  justify-content: space-between;
+  width: 33%;
   float: right;
   background: transparent;
 }
@@ -433,15 +435,6 @@ a {
 .main-navigation.menu-container .ls-lang-item.is-active {
   opacity: 1;
   font-weight: normal;
-}
-
-.main-navigation.menu-container .ls-lang-item.is-active .ls-lang-link::before {
-  content: "";
-  display: inline-block;
-  margin: 0 5px;
-  border-top: solid 5px transparent;
-  border-bottom: solid 5px transparent;
-  border-left: solid 7px #ffffff;
 }
 
 .ls-lang-item.ls-lang-en.is-active::before,
@@ -462,9 +455,27 @@ a {
   content: "Langue :";
 }
 
+.ls-lang-link:hover,
+.ls-lang-link:focus {
+  background: transparent;
+}
+
 .main-navigation.menu-container .ls-lang-link {
-  padding: 0 0 0 3rem;
+  padding: 0 1.5rem;
   color: #ffffff !important;
+}
+
+.main-navigation.menu-container .ls-lang-item.is-active .ls-lang-link {
+  padding: 0;
+}
+
+.main-navigation.menu-container .ls-lang-item.is-active .ls-lang-link::before {
+  content: "";
+  display: inline-block;
+  margin: 0 5px;
+  border-top: solid 5px transparent;
+  border-bottom: solid 5px transparent;
+  border-left: solid 7px #ffffff;
 }
 
 abbr[title] {
