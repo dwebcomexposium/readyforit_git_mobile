@@ -548,7 +548,7 @@ abbr[title] {
 .main-navigation.menu-container {
   top: 70px;
   min-height: 49px;
-  padding: 1rem 3rem;
+  padding: 1rem 0;
   background: #1e2339;
 }
 
@@ -577,7 +577,7 @@ abbr[title] {
 }
 
 .mn-item-lvl-1 > .mn-link {
-  padding: 1.3rem 4rem 1.3rem 2rem;
+  padding: 1.3rem 4rem 1.3rem 3rem;
   color: #1e2339;
   font-size: 2rem;
   text-transform: inherit;
