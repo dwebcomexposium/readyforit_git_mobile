@@ -1279,6 +1279,7 @@ h1,
 
 /* Vidéos */
 .videos-container {
+  margin-top: 3rem;
   background: #1e2339 url('img/readyforit/bg_1.jpg') no-repeat  0 0 / cover;
   color: #ffffff;
 }
