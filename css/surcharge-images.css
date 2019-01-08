@@ -75,17 +75,7 @@
   background: url('img/readyforit/bg_blog.jpg') no-repeat 0 0 / cover;
 }
 
-/* Blog - Actus  */
-.parent601413.node798641 #zone1::before {
-  background: url('img/readyforit/bg_blog_actu.jpg') no-repeat 0 0 / cover;
-}
-
-/* Blog - Articles  */
-.parent601413.node646257 #zone1::before {
-  background: url('img/readyforit/bg_blog_article.jpg') no-repeat 0 0 / cover;
-}
-
 /* Press -  */
-.parent601399 #zone1::before {
-  background: url('img/readyforit/bg_blog.jpg') no-repeat 0 0 / cover;
+.parent601414 #zone1::before {
+  background: url('img/readyforit/bg_press.jpg') no-repeat 0 0 / cover;
 }
