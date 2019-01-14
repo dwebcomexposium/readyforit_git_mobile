@@ -2596,7 +2596,11 @@ body.faq .faq {
   background: #ffffff;
 }
 
-.faq-content .fc-item-link {
+.faq-content a {
+  color: #ffffff;
+}
+
+.faq-content a.fc-item-link {
   display: flex;
   position: relative;
   justify-content: space-between;
@@ -2607,9 +2611,9 @@ body.faq .faq {
   font-weight: 500;
 }
 
-.faq-content .fc-item-link:hover,
-.faq-content .fc-item-link:focus,
-.faq-content .fc-item-link:active {
+.faq-content a.fc-item-link:hover,
+.faq-content a.fc-item-link:focus,
+.faq-content a.fc-item-link:active {
   color: #ff3100;
   text-decoration: none;
 }
