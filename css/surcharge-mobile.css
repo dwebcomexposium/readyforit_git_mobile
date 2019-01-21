@@ -1796,10 +1796,6 @@ p.cl-item-phone:nth-child(1n) {
   margin-top: 0;
 }
 
-p.cl-item-phone:nth-child(2n) {
-  margin-top: 1rem;
-}
-
 .cl-item-phone .label {
   display: none;
   color: #ffffff;
@@ -1821,7 +1817,7 @@ p.cl-item-phone:nth-child(2n) {
 .cl-item-content .cl-item-phone:nth-child(1n) .icon-phone {
   display: inline-block;
   position: absolute;
-  bottom: 2px;
+  bottom: -16px;
   left: 0;
 }
 
