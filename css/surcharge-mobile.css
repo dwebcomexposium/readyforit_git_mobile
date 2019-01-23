@@ -2324,6 +2324,10 @@ h2.gla-item-title {
   border-left: 5px solid #00c485;
 }
 
+.node683555 #zone2 .grid-la-list .link-read-more {
+  border-color: #00e2ff;
+}
+
 #zone2 .grid-la-list .link-read-more .icon {
   display: none;
 }
@@ -2388,6 +2392,11 @@ h2.gla-item-title {
 #zone2 .grid-la-list .la-highlight > .la-item:first-child h2 u {
   color: #00c485;
   text-decoration: none;
+}
+
+.node683555 #zone2 .grid-la-list .la-highlight > .la-item:first-child .la-item-desc u,
+.node683555 #zone2 .grid-la-list .la-highlight > .la-item:first-child h2 u {
+  color: #00e2ff;
 }
 
 #zone2 .grid-la-list .la-highlight > .la-item:first-child .la-item-btn {

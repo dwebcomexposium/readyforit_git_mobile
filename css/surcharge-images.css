@@ -20,6 +20,11 @@
   background: url('img/readyforit/bg_program.jpg') no-repeat 0 0 / cover;
 }
 
+/* Programme - Temps fort */
+.parent601410.node683555 #zone1::before {
+  background: url('img/readyforit/bg_program_committee.jpg') no-repeat 0 0 / cover;
+}
+
 /* Programme - Comité éditorial */
 .parent601410.node817248 #zone1::before {
   background: url('img/readyforit/bg_program_committee.jpg') no-repeat 0 0 / cover;
