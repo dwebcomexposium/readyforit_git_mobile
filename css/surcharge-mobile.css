@@ -1805,14 +1805,14 @@ p.cl-item-phone:nth-child(1n) {
   display: inline-block;
 }
 
-.cl-item-phone:last-child .label::before {
+/*.cl-item-phone:last-child .label::before {
   content: '';
   position: absolute;
   bottom: 0.7rem;
   width: 33px;
   height: 32px;
   background: #ffffff url('img/readyforit/icon_phone.png') no-repeat;
-}
+}*/
 
 .cl-item-content .cl-item-phone:nth-child(1n) .icon-phone {
   display: inline-block;
