@@ -1448,12 +1448,12 @@ h1,
   text-align: center;
 }
 
-.btn-container {
+/*.btn-container {
   position: absolute;
   right: 0;
   bottom: -34px;
   left: 0;
-}
+}*/
 
 .program-btn {
   display: inline-block;
