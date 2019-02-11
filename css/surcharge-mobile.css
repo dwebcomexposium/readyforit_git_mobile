@@ -2680,7 +2680,13 @@ body.faq .faq {
 }
 
 .node646244 .grid-la-list {
-  padding: 3rem 2rem;
+  padding: 3rem 0;
+  justify-content: flex-start;
+}
+
+.node646244 .gla-item {
+  height: 285px;
+  margin: 0 0 3rem 2.3rem;
 }
 
 .node646244 .gla-item-content {
