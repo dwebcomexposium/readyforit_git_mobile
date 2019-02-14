@@ -20,28 +20,8 @@
   background: url('img/readyforit/bg_program_committee.jpg') no-repeat 0 0 / cover;
 }
 
-/* Programme - Temps fort */
-.parent601410.node683555 #zone1::before {
-  background: url('img/readyforit/bg_program_committee.jpg') no-repeat 0 0 / cover;
-}
-
-/* Programme - Comité éditorial */
-.parent601410.node817248 #zone1::before {
-  background: url('img/readyforit/bg_program_committee.jpg') no-repeat 0 0 / cover;
-}
-
-/* Programme - Déroulé des 3 jours */
-.parent601410.node666352 #zone1::before {
-  background: url('img/readyforit/bg_program_committee.jpg') no-repeat 0 0 / cover;
-}
-
 /* Partenaires */
 .parent601411 #zone1::before {
-  background: url('img/readyforit/bg_partner.jpg') no-repeat 0 0 / cover;
-}
-
-/* Partenaires - Partenaires médias & institutionnels */
-.parent601411.node666356 #zone1::before {
   background: url('img/readyforit/bg_partner.jpg') no-repeat 0 0 / cover;
 }
 

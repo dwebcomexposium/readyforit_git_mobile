@@ -1752,6 +1752,7 @@ h1,
 }
 
 .cl-item-email {
+  position: relative;
   font-weight: 500;
 }
 
@@ -1779,6 +1780,7 @@ h1,
 .cl-item-email a {
   display: inline-block;
   position: absolute;
+  top: 0;
   left: 0;
   width: 70%;
   overflow: hidden;
