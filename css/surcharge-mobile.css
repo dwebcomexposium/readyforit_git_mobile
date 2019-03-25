@@ -2728,15 +2728,15 @@ body.faq .faq {
 }
 
 .node646244 .gla-item:nth-child(2n) .gla-item-content {
-  background: rgba(30, 35, 57, 0.8) url('img/readyforit/icon_bus.png') no-repeat center 6rem;
-}
-
-.node646244 .gla-item:nth-child(3n) .gla-item-content {
   background: rgba(30, 35, 57, 0.8) url('img/readyforit/icon_car.png') no-repeat center 6rem;
 }
 
-.node646244 .gla-item:nth-child(4n) .gla-item-content {
+.node646244 .gla-item:nth-child(3n) .gla-item-content {
   background: rgba(30, 35, 57, 0.8) url('img/readyforit/icon_helico.png') no-repeat center 6rem;
+}
+
+.node646244 .gla-item:nth-child(4n) .gla-item-content {
+  background: rgba(30, 35, 57, 0.8) url('img/readyforit/icon_bus.png') no-repeat center 6rem;
 }
 
 .node646244 .gla-item .gla-item-content::after {
