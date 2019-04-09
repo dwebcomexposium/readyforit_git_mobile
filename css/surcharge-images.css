@@ -25,6 +25,16 @@
   background: url('img/readyforit/bg_program_committee.jpg') no-repeat 0 0 / cover;
 }
 
+/* Programme - speakers */
+.parent601410.node1189606 #zone1::before {
+  background: url('img/readyforit/bg_program_speakers.jpg') no-repeat 0 0 / cover;
+}
+
+/* Programme - conference */
+.parent601410.node1189590 #zone1::before {
+  background: url('img/readyforit/bg_press.jpg') no-repeat 0 0 / cover;
+}
+
 /* Partenaires */
 .parent601411 #zone1::before {
   background: url('img/readyforit/bg_partner.jpg') no-repeat 0 0 / cover;
@@ -33,6 +43,11 @@
 /* Participation */
 .parent601412 #zone1::before {
   background: url('img/readyforit/bg_participation.jpg') no-repeat 0 0 / cover;
+}
+
+/* Participation - One-to-one */
+.parent601412.node1114129 #zone1::before {
+  background: url('img/readyforit/bg_participation_oto.jpg') no-repeat 0 0 / cover;
 }
 
 /* Participation - Demande de participation */
