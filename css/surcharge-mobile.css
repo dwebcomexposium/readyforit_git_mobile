@@ -2857,3 +2857,9 @@ body.faq .faq {
     max-width: 720px;
   }
 }
+
+/* Chatbot - Botspell */
+.node1216306 .global-wrapper,
+.node1216306 footer {
+  display: none;
+}
