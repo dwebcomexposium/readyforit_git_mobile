@@ -774,17 +774,17 @@ abbr[title] {
 
 .logo-dg-consultants {
   display: inline-block;
-  width: 170px;
-  height: 30px;
+  width: 160px;
+  height: 26px;
   margin-right: 1.5rem;
-  background: url('img/readyforit/logo_dg.png') no-repeat 0 0 / 170px;
+  background: url('img/readyforit/logo_dg.png') no-repeat 0 0 / 160px;
 }
 
 .logo-comexposium {
   display: inline-block;
-  width: 170px;
-  height: 30px;
-  background: url('img/readyforit/logo_comexposium.png') no-repeat 0 0 / 170px;
+  width: 155px;
+  height: 25px;
+  background: url('img/readyforit/logo_comexposium.png') no-repeat 0 0 / 155px;
 }
 
 .footer-logos p {
