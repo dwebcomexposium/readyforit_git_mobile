@@ -1687,7 +1687,8 @@ h1,
 /***********************************/
 .front .main-title-with-link,
 .node646244 .link-view-all,
-.node798641 .link-view-all {
+.node798641 .link-view-all,
+.article-navigation {
   display: none;
 }
 
