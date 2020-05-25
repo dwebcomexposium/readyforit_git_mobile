@@ -378,6 +378,7 @@ a {
 }
 
 .article-content table figure {
+  max-width: 320px;
   margin-bottom: 3rem;
 }
 
