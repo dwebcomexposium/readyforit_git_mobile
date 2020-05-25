@@ -378,7 +378,12 @@ a {
 }
 
 .article-content table figure {
-  margin-bottom: 0;
+  margin-bottom: 3rem;
+}
+
+.article-content .table1,
+.article-content .table2 {
+  margin: 4rem 0;
 }
 
 .article-content .table1 tr {
