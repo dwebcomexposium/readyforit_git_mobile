@@ -1587,6 +1587,22 @@ h1,
   margin: 4rem 2rem;
 }
 
+.partner-container {
+  position: relative;
+  margin-bottom: 9rem;
+  padding: 2rem;
+  background: url('img/readyforit/bg_1.jpg') no-repeat  0 0 / cover;
+  color: #ffffff;
+}
+
+.partner-container h2 {
+  margin-top: 3.8rem;
+  padding-bottom: 0;
+  color: #ffffff;
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
 
 /* Partenaires */
 .front #zone4 {
