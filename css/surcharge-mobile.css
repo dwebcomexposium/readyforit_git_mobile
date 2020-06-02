@@ -433,7 +433,6 @@ a {
 }
 
 .article-content .table4 {
-  position: relative;
   max-width: 1136px;
   min-height: 556px;
   margin: 4rem 0;
@@ -445,8 +444,14 @@ a {
   color: #ffffff;
 }
 
+.article-content .table4 td.col1 {
+  padding: 2rem;
+  text-align: center;
+}
+
 .article-content .table4 td.col1 iframe {
   width: 100%;
+  max-width: 560px;
 }
 
 .article-content .table4 td.col2 {
