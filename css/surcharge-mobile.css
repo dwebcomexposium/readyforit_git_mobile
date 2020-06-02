@@ -1453,6 +1453,17 @@ h1,
   margin-top: 1rem;
 }
 
+/* A propos */
+.node1378739 .article-intro h3 {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.node1378739 .article-intro p.style1 {
+  position: relative;
+  bottom: -10rem;
+}
+
 /* Actualités */
 .title-actualites {
   color: #00c485;
