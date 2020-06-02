@@ -445,16 +445,12 @@ a {
   color: #ffffff;
 }
 
-.article-content .table4 td.col1 {
-  position: absolute;
-  top: 50%;
-  right: -7rem;
-  margin-top: -157px;
+.article-content .table4 td.col1 iframe {
+  width: 100%;
 }
 
 .article-content .table4 td.col2 {
-  padding: 4rem;
-  vertical-align: middle !important;
+  padding: 2rem;
 }
 
 /***********************************/
