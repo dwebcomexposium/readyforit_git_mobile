@@ -2996,3 +2996,18 @@ body.faq .faq {
 .node1216306 footer {
   display: none;
 }
+
+.cxp-swiper a.externe {
+    padding: 4px 0 0 0.8rem;
+    border-bottom: 0;
+    border-color: #ff3100;
+    color: #fff;
+    border-left: 5px solid;
+    background: transparent;
+    text-transform: inherit;
+    font-weight: 700;
+    font-size: 1.4rem;
+    display: flex;
+    line-height: 29px;
+    margin-top: 15px;
+}
